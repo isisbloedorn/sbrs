@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+--cor-principal:#a016ca;
+--cor-secundaria: #7d1ab6 ;
+--cor-destaque: #9e40d4;
+}
+
+body{
+    font-family: "Winky Rough", sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 ,h4 ,h3 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.Lead{
+color:var(--cor-destaque);
+font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque)
+
+}
+   
